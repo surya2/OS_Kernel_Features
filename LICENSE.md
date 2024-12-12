@@ -1,0 +1,7 @@
+Copyright 2023 Surya Shanmugaselvam
+
+Permission is hereby granted to any individual obtaining a copy of this Software and its associated documentation files to use the Software free-of-charge for simulation and academic purposes. Permission is also granted to any individual who desires to use this software in one's own development. However, if the individial desires to distribute and/or sell this Software or their own implementation which includes the this software's implementation, they must include this copyright in their work and cite the author/copyright holder appropriately. If the individual intends to modify, merge, or publish the Software, the individual must again include this copyright with their work and return any modifications to the auther/copyright owner.
+
+The above copyright notice and the permission notice listed shall be included in all copies, portions, or modification of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
