@@ -40,14 +40,20 @@ This project implements a multi-level page table system for virtual memory manag
 ## Usage
 
 ### Building the Project
-```bash
-make```
+```
+bash
+make
+```
 
 # Clean build files
+```
 make clean
+```
 
 # Build with debug symbols
-```make debug```
+```
+make debug
+```
 
 # Build and run
 ```
@@ -55,34 +61,35 @@ make run
 ```
 
 ### Running Tests
-\```bash
+```
+bash
 make test
-\```
+```
 
 ### Code Examples
 
 1. **Allocating a Page**
-\```c
+```c
 // Allocate a page for virtual address
 page_allocate(0x456789abcdef);
-\```
+```
 
 2. **Translating an Address**
-\```c
+```c
 // Translate virtual to physical address
 size_t phys_addr = translate(0x456789abcdef);
 if (phys_addr == 0xFFFFFFFFFFFFFFFF) {
     printf("Invalid address\n");
 }
-\```
+```
 
 ## Configuration
 
 ### config.h
-\```c
+```c
 #define LEVELS  4     // Number of page table levels
 #define POBITS  12    // Number of page offset bits (4KB pages)
-\```
+```
 
 ### Memory Requirements
 - Each page table requires 2^POBITS bytes
@@ -100,7 +107,7 @@ if (phys_addr == 0xFFFFFFFFFFFFFFFF) {
 - Uses POSIX-compliant memory alignment
 
 ## Directory Structure
-\```
+```
 .
 ├── README.md
 ├── Makefile
@@ -108,7 +115,7 @@ if (phys_addr == 0xFFFFFFFFFFFFFFFF) {
 ├── lookup.c       # Page table implementation
 ├── mlpt.h         # Interface declarations
 └── config.h       # Configuration constants
-\```
+```
 
 ## Limitations and future TODOS
 - No support for page deallocation
