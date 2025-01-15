@@ -40,19 +40,19 @@ This project implements a multi-level page table system for virtual memory manag
 ## Usage
 
 ### Building the Project
-\```bash
-# Build the project
-make
+```bash
+make```
 
 # Clean build files
 make clean
 
 # Build with debug symbols
-make debug
+```make debug```
 
 # Build and run
+```
 make run
-\```
+```
 
 ### Running Tests
 \```bash
